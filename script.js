@@ -1,4 +1,4 @@
-// body tag made into a variable for debugging
+// created variable set to body tag in html for debugging purposes
 var body = document.body;
 console.log(body);
 
@@ -73,7 +73,7 @@ input1.setAttribute("type", "text");
 input1.setAttribute("placeholder", "username");
 
 par.insertBefore(input1, par.childNodes[0]);
-
+console.log(this);
 // js assignment ↓	↓
 /* JS-ify this!!
 <ul>
